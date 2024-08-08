@@ -2,7 +2,7 @@ package Statements;
 
 public class SwitchDays {
     public static void main(String[] args) {
-        int n = 7;
+        int n = 8;
         switch (n)
         {
             case 1:
@@ -25,6 +25,9 @@ public class SwitchDays {
                 break;
             case 7:
                 System.out.println("Wow!! It's Sunday");
+                break;
+            default:
+                System.out.println("Oops!! Enter a valid number");
                 break;
         }
     }
